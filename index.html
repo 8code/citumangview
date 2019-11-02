@@ -91,7 +91,7 @@
   <!-- Masthead -->
   <header class="masthead">
 
-  <video autoplay id="myVideo">
+  <video controls autoplay id="myVideo">
     <source src="img/1.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
   </video>
@@ -104,12 +104,18 @@
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
+           
+            <a target="_BLANK" class="btn btn-primary btn-xl js-scroll-trigger" href="https://api.whatsapp.com/send?phone=6282116383272&text=Halo%20Saya%20Pesan%20Paket%20Body%20Rafting%20Citumang%20Pangandaran">
+              Pesan Sekarang
+            </a>
+            <br>
+            <br>
           <p class="text-white-75 font-weight-light mb-5">
               Paket Wisata Citumang Body Rafting
           </p>
-          <a target="_BLANK" class="btn btn-primary btn-xl js-scroll-trigger" href="https://api.whatsapp.com/send?phone=6282116383272&text=Halo%20Saya%20Pesan%20Paket%20Body%20Rafting%20Citumang%20Pangandaran">
-            Pesan Sekarang
-          </a>
+          <button  onclick="onPlay()" class="btn btn-outline-primary">
+              <i class="fas fa-play"></i>
+            </button>
         </div>
       </div>
     </div>
@@ -311,6 +317,20 @@ style="position: fixed;bottom:0;left:0;width:100%"
   <script src="js/creative.min.js"></script>
 
  
+<script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+    
+    function onPlay() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
 </body>
 
 </html>
