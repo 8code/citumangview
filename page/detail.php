@@ -50,15 +50,6 @@ Citumang yang lebih dikenal dengan nama Green Valley yang anda dapat lakukan di 
                       
 											<div class="blog_details" id="paket2">
                     <h2>Paket Citumang Double track 125Rb</h2>
-    <br>
-<br>
-                      Salam traveler, di sini kami memberikan paket citumang bodyrafting Double track, dengan bertujuan supaya para wisatawan bisa lebih lama di air nya, dan tentunya dengan harga hemat.
-                      <br>
-                      <br>
-
-                      Citumang yang lebih dikenal dengan nama Green Valley yang anda dapat lakukan di sana di antaranya, Berenang, Menelusuri sungai Citumang (Body Rafting) durasi 2 jam, Terjun di atas air terjun mini namun mengesankan.
-                      <br>
-                      <br>
 
                       Fasilitas
                       <br>

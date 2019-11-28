@@ -25,6 +25,45 @@
   <link rel="stylesheet" href="css/style.css">
 
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <style>
+
+.wa,.tel{
+	position:fixed;
+	width:60px;
+  height:60px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+
+}
+.wa{
+	bottom:30px;
+  right:50px;
+}
+.tel{
+	bottom:30px;
+  left:50px;
+}
+@media(min-width:800px){
+  .tel{
+    display:none
+  }
+  .wa{
+    top:10px;
+    width:55px;
+    height:55px;
+  }
+}
+
+.menu_nav .nav-item{
+  text-align:center
+}
+</style>
   
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150434016-2"></script>
@@ -80,9 +119,9 @@
               "><a class="nav-link" href="/detail">Harga</a></li> 
 
               <li class="nav-item">
-                <a  class="button button-hero button-shadow text-white mt-3" href="tel:6282116383272">
+                <!-- <a  class="button button-hero button-shadow text-white mt-3" href="tel:6282116383272">
                   Pesan Sekarang
-                </a>
+                </a> -->
               </li>
             </ul>
           </div> 
@@ -111,7 +150,7 @@
   <footer class="footer-area section-gap">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-2 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+				<div class="col-xl-3 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
 					<h4>Social Media</h4>
 					<ul>
 						<li><a href="https://instagram.com/citumangview">Instagram</a></li>
@@ -133,28 +172,22 @@
 					</ul>
 				</div>
 				
-				<div class="col-xl-4 col-md-8 mb-4 mb-xl-0 single-footer-widget">
-					<h4>Newsletter</h4>
-          <p>You can trust us. we only send promo offers,</p>
-          
-          <div class="form-wrap" id="mc_embed_signup">
-            <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-            method="get">
-              <div class="input-group">
-                <input type="email" class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '">
-                <div class="input-group-append">
-                  <button class="btn click-btn" type="submit">
-                    <i class="ti-arrow-right"></i>
-                  </button>
-                </div>
-              </div>
-              <div style="position: absolute; left: -5000px;">
-								<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-							</div>
+				<div class="col-xl-3 col-md-6 mb-4 mb-xl-0 single-footer-widget">
+					<h4>Contact Us</h4>
+          <p>
 
-							<div class="info"></div>
-            </form>
-          </div>
+          <a href="https://api.whatsapp.com/send?phone=6282116383272&text=Halo%20Saya%20Pesan%20Paket%20Body%20Rafting%20Citumang%20Pangandaran" 
+           target="_blank">
+          <i class="fa fa-whatsapp"></i>
+          WhatsApp (62-8211-6383-272)
+          </a>
+          <br>
+          <a href="tel:6282116383272" target="_blank">
+                <i class="fa fa-phone " ></i>
+                Telpon (62-8211-6383-272)
+                </a>
+
+          </p>
           
 				</div>
 			</div>
@@ -163,17 +196,28 @@
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="ti-heart" aria-hidden="true"></i>  <a href="https://citumangview.com">CitumangView</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 				<div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
-					<a href="#"><i class="ti-facebook"></i></a>
-					<a href="#"><i class="ti-twitter-alt"></i></a>
-					<a href="#"><i class="ti-dribbble"></i></a>
-					<a href="#"><i class="ti-linkedin"></i></a>
+            <a href="https://instagram.com/citumangview">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com/hendri.cbarca">
+              <i class="fa fa-facebook"></i>
+          </a>
 				</div>
 			</div>
 		</div>
 	</footer>
   <!-- ================ End footer Area ================= -->
 
+    <a href="https://api.whatsapp.com/send?phone=6282116383272&text=Halo%20Saya%20Pesan%20Paket%20Body%20Rafting%20Citumang%20Pangandaran" 
+    class="wa" target="_blank">
+    <i class="fa fa-whatsapp"></i>
+    </a>
 
+    <a href="tel:6282116383272" target="_blank"
+    style="background: red;" class="tel"
+    >
+      <i class="fa fa-phone " ></i>
+      </a>
 
 
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>

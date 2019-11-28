@@ -3,12 +3,11 @@
   <section class="hero-banner">
     <div class="hero-wrapper">
       <div class="hero-left">
-        <h1 class="hero-title">Body Rafting <br> Citumang</h1>
+        <h1 class="hero-title">Body Rafting <br> Citumang <br> Pangandaran</h1>
         <div class="d-sm-flex flex-wrap">
           <a class="button button-hero button-shadow" href="tel:6282116383272" >
-          <img src="/img/phone-call.png" alt="citumang" style="width:30px;margin-right:10px">
-          Pesan Sekarang
-        </a>
+            Pesan Sekarang
+          </a>
           <!-- <a class="hero-banner__video" href="http://www.youtube.com/watch?v=I4JA3LS6Q_U">Watch Video</a>           -->
         </div>
         <ul class="hero-info d-none d-lg-block">
