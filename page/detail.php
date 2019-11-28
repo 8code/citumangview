@@ -54,13 +54,15 @@ Citumang yang lebih dikenal dengan nama Green Valley yang anda dapat lakukan di 
                       Fasilitas
                       <br>
                       <br>
-
+                      
                       •Pemandu wisata
                       •Tiket Masuk Citumang
                       •Asuransi
                       •Peralatan Body Rafting (Pelampung + Sandal    Berenang + Helem Berenang + dll)
                       •Masakan khas sunda (nasi liwet)
-                      [12:09 PM, 11/26/2019] Hendri Donen: Tiket Masuk Citumang 2019 
+                      <br>
+                      • Makan siang ( nasi liwet, bakar ayam, tahu,       
+                       tempe, lalapan, sambal, ikan asin, air mineral)
                       <br>
                       <br>
                       • Warga Negara Indonesia (WNI)

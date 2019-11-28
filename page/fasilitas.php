@@ -109,7 +109,8 @@
               <div class="d-flex justify-content-between food-card-title">
                 <h4>Masakan khas sunda </h4>
               </div>
-              <p>(nasi liwet)</p>
+              <p>      • Makan siang ( nasi liwet, bakar ayam, tahu,       
+                       tempe, lalapan, sambal, ikan asin, air mineral)</p>
             </div>
           </div>
         </div>
