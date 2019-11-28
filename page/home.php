@@ -77,7 +77,7 @@
           </div>
           <p>
           citumangview.com adalah penyedia jasa paket wisata alam body rafting
-           di sungai Citumang, santirah, jojogan goa lanang beberapa tempat lainya. 
+           di sungai Citumang. 
            citumangview.com dibuat untuk mempermudah para wisatawan untuk menghubungi 
            langsung sekretariat citumang body rafting, kepemanduan kami legal 
            dan di bawah naungan HPI (HIMPUNAN PEMANDU INDONESIA), 
